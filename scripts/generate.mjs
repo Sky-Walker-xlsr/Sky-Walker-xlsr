@@ -56,7 +56,7 @@ function header() {
 }
 
 const routes = [
-  { n: '01', name: 'ys-planner', url: 'planner.salm.li', shot: null,
+  { n: '01', name: 'ys-planner', url: 'planner.salm.li', shot: 'ys-planner',
     d: ['Task management with boards, a knowledge base,', 'an email inbox and its own MCP server.'],
     s: 'Next.js · Supabase · Cloudflare Workers' },
   { n: '02', name: 'ys-jasstafel', url: 'jasstafel.yannicksalm.ch', shot: 'ys-jasstafel',

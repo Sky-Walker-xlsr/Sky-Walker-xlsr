@@ -1,6 +1,6 @@
 <img src="assets/header.svg" alt="Yannick Salm, IT-Lernender aus der Schweiz: Web-Apps, Homelab, Cloudflare" width="100%">
 
-Ich baue Web-Apps von der ersten Idee bis zum Betrieb und betreibe die Infrastruktur dahinter selbst: vom Cloudflare Worker bis zum eigenen Proxmox-Cluster im Homelab.
+Ich baue Web-Apps von der ersten Idee bis zum Betrieb und betreibe die Infrastruktur dahinter selbst: vom Cloudflare Worker bis zu den eigenen Proxmox-Hosts im Homelab.
 
 ## Höhenprofil
 

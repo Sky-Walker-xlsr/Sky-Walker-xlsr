@@ -1,4 +1,4 @@
-// Erzeugt die SVGs fürs Profil. Aufruf: node scripts/generate.mjs
+// Generates the profile SVGs. Usage: node scripts/generate.mjs
 import { mkdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -24,7 +24,7 @@ const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, 
 
 function header() {
   const main = 'M0 372 L190 345 L330 365 L520 320 L660 350 L790 225 L860 275 L930 62 L1010 170 L1060 140 L1200 250'
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-label="Yannick Salm: Bergkette als Header">
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" role="img" aria-label="Yannick Salm: mountain range header">
 <style>
 @keyframes rise { from { opacity: 0; transform: translateY(36px) } to { opacity: 1; transform: none } }
 @keyframes draw { from { stroke-dashoffset: 1 } to { stroke-dashoffset: 0 } }
@@ -49,7 +49,7 @@ function header() {
 <polygon class="snow" fill="${c.cream}" points="930,62 975,123 950,112 932,138 915,112 901,150"/>
 <path class="line" pathLength="1" fill="none" stroke="${c.gold}" stroke-width="3" stroke-linejoin="round" d="${main}"/>
 <text class="t1" x="70" y="130" font-family="${serif}" font-size="76" fill="${c.cream}">Yannick Salm</text>
-<text class="t2" x="72" y="178" font-family="${sans}" font-size="26" fill="${c.cream}" opacity=".85">IT-Lernender aus der Schweiz</text>
+<text class="t2" x="72" y="178" font-family="${sans}" font-size="26" fill="${c.cream}" opacity=".85">IT Apprentice from Switzerland</text>
 <text class="t3" x="72" y="214" font-family="${mono}" font-size="20" fill="${c.gold}">Web-Apps · Homelab · Cloudflare</text>
 </svg>
 `
@@ -57,22 +57,22 @@ function header() {
 
 const routes = [
   { n: '01', name: 'ys-planner', url: 'planner.salm.li', shot: null,
-    d: ['Aufgabenverwaltung mit Boards, Knowledge Base,', 'Mail-Eingang und eigenem MCP-Server.'],
+    d: ['Task management with boards, a knowledge base,', 'an email inbox and its own MCP server.'],
     s: 'Next.js · Supabase · Cloudflare Workers' },
   { n: '02', name: 'ys-jasstafel', url: 'jasstafel.yannicksalm.ch', shot: 'ys-jasstafel',
-    d: ['Gratis Open-Source-Jasstafel fürs Handy: Punkte,', 'Weis und Striche ohne Kopfrechnen.'],
+    d: ['Free open-source scoreboard for the Swiss card', 'game Jass, built for your phone.'],
     s: 'Next.js · Supabase · PWA' },
   { n: '03', name: 'ys-workout', url: 'workout.yannicksalm.ch', shot: 'ys-workout',
-    d: ['Workout-Tracker, der auch offline funktioniert.', 'Aktuell in der Beta-Phase.'],
+    d: ['Workout tracker that also works offline.', 'Currently in beta.'],
     s: 'Next.js · Supabase · Serwist' },
   { n: '04', name: 'ys-ptone', url: 'ptone.yannicksalm.ch', shot: 'ys-ptone',
-    d: ['Plattform für Personal Trainer mit Kundenverwaltung,', 'Trainingsplänen und Buchhaltung.'],
+    d: ['Platform for personal trainers with client management,', 'training plans and accounting.'],
     s: 'Next.js · Supabase · Resend' },
   { n: '05', name: 'ys-status', url: 'status.yannicksalm.ch', shot: 'ys-status',
-    d: ['Öffentliche Status-Seite für meine Dienste,', 'mit automatischen Health-Checks.'],
+    d: ['Public status page for my services,', 'with automated health checks.'],
     s: 'Next.js · Supabase · Recharts' },
   { n: '06', name: 'ys-homepage', url: 'yannicksalm.ch', shot: 'ys-homepage',
-    d: ['Meine Website mit Portfolio und Angeboten', 'für Webdesign und Entwicklung.'],
+    d: ['My website, with my portfolio and services', 'for web design and development.'],
     s: 'Next.js · TypeScript · Cloudflare Workers' },
 ]
 
@@ -113,9 +113,9 @@ ${img}
 }
 
 const gear = [
-  { title: 'Täglich im Einsatz', style: 'a', items: ['TypeScript', 'Next.js', 'React', 'Tailwind', 'Supabase', 'PostgreSQL', 'Cloudflare Workers', 'Docker', 'Linux'] },
-  { title: 'Regelmässig', style: 'b', items: ['Python', 'FastAPI', 'Proxmox', 'Traefik', 'Coolify', 'Zitadel', 'Zabbix', 'Bash', 'Claude Code'] },
-  { title: 'Schon produktiv eingesetzt', style: 'c', items: ['shadcn/ui', 'Motion', 'PWA', 'HTML/CSS/JS', 'Astro', 'PostgREST', 'Row Level Security', 'Stripe', 'Resend', 'Twilio', 'Cloudflare Pages', 'R2', 'Cloudflare Tunnel', 'nftables', 'NFS', 'RAID1', 'GitHub Actions', 'OIDC/OAuth', 'SAML', 'MFA', 'Duplicati', 'llama.cpp', 'MCP-Server', 'Windows Server', 'Active Directory', 'PowerShell', 'ESP32', '3D-Druck'] },
+  { title: 'Daily Drivers', style: 'a', items: ['TypeScript', 'Next.js', 'React', 'Tailwind', 'Supabase', 'PostgreSQL', 'Cloudflare Workers', 'Docker', 'Linux'] },
+  { title: 'Regular Use', style: 'b', items: ['Python', 'FastAPI', 'Proxmox', 'Traefik', 'Coolify', 'Zitadel', 'Zabbix', 'Bash', 'Claude Code'] },
+  { title: 'Used in Production', style: 'c', items: ['shadcn/ui', 'Motion', 'PWA', 'HTML/CSS/JS', 'Astro', 'PostgREST', 'Row Level Security', 'Stripe', 'Resend', 'Twilio', 'Cloudflare Pages', 'R2', 'Cloudflare Tunnel', 'nftables', 'NFS', 'RAID1', 'GitHub Actions', 'OIDC/OAuth', 'SAML', 'MFA', 'Duplicati', 'llama.cpp', 'MCP Servers', 'Windows Server', 'Active Directory', 'PowerShell', 'ESP32', '3D Printing'] },
 ]
 
 function gearSvg() {
@@ -154,4 +154,4 @@ ${body}</svg>
 writeFileSync(join(out, 'header.svg'), header())
 for (const r of routes) writeFileSync(join(out, `route-${r.name}.svg`), card(r))
 writeFileSync(join(out, 'gear.svg'), gearSvg())
-console.log('SVGs erzeugt')
+console.log('SVGs generated')

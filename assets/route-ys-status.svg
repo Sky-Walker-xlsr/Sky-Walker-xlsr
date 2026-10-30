@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" role="img" aria-label="ys-status: Öffentliche Status-Seite für meine Dienste, mit automatischen Health-Checks.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" role="img" aria-label="ys-status: Public status page for my services, with automated health checks.">
 <defs>
 <clipPath id="k"><rect width="800" height="540" rx="24"/></clipPath>
 <radialGradient id="g"><stop offset="0" stop-color="#c9a97c" stop-opacity=".32"/><stop offset="1" stop-color="#c9a97c" stop-opacity="0"/></radialGradient>
@@ -10,8 +10,8 @@
 <rect y="220" width="800" height="80" fill="url(#f)"/>
 <text x="40" y="350" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="700" fill="#f2ece1">ys-status</text>
 <text x="760" y="349" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="22" fill="#c9a97c">ROUTE 05</text>
-<text x="40" y="396" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#f2ece1" opacity=".85">Öffentliche Status-Seite für meine Dienste,</text>
-<text x="40" y="430" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#f2ece1" opacity=".85">mit automatischen Health-Checks.</text>
+<text x="40" y="396" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#f2ece1" opacity=".85">Public status page for my services,</text>
+<text x="40" y="430" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#f2ece1" opacity=".85">with automated health checks.</text>
 <text x="40" y="478" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="22" fill="#c9a97c">Next.js · Supabase · Recharts</text>
 <text x="40" y="512" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="22" fill="#8b949e">status.yannicksalm.ch</text>
 </g>

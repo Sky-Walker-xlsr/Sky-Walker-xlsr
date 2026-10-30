@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" role="img" aria-label="ys-ptone: Plattform für Personal Trainer mit Kundenverwaltung, Trainingsplänen und Buchhaltung.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" role="img" aria-label="ys-ptone: Platform for personal trainers with client management, training plans and accounting.">
 <defs>
 <clipPath id="k"><rect width="800" height="540" rx="24"/></clipPath>
 <radialGradient id="g"><stop offset="0" stop-color="#c9a97c" stop-opacity=".32"/><stop offset="1" stop-color="#c9a97c" stop-opacity="0"/></radialGradient>
@@ -10,8 +10,8 @@
 <rect y="220" width="800" height="80" fill="url(#f)"/>
 <text x="40" y="350" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="700" fill="#f2ece1">ys-ptone</text>
 <text x="760" y="349" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="22" fill="#c9a97c">ROUTE 04</text>
-<text x="40" y="396" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#f2ece1" opacity=".85">Plattform für Personal Trainer mit Kundenverwaltung,</text>
-<text x="40" y="430" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#f2ece1" opacity=".85">Trainingsplänen und Buchhaltung.</text>
+<text x="40" y="396" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#f2ece1" opacity=".85">Platform for personal trainers with client management,</text>
+<text x="40" y="430" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#f2ece1" opacity=".85">training plans and accounting.</text>
 <text x="40" y="478" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="22" fill="#c9a97c">Next.js · Supabase · Resend</text>
 <text x="40" y="512" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="22" fill="#8b949e">ptone.yannicksalm.ch</text>
 </g>

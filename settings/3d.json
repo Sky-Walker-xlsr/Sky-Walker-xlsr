@@ -1,0 +1,11 @@
+{
+  "type": "normal",
+  "fileName": "profile-basecamp.svg",
+  "backgroundColor": "#0d1117",
+  "foregroundColor": "#f2ece1",
+  "strongColor": "#c9a97c",
+  "weakColor": "#8b949e",
+  "radarColor": "#c9a97c",
+  "growingAnimation": true,
+  "contribColors": ["#1c222b", "#5c4f3d", "#8f7a58", "#c9a97c", "#f2ece1"]
+}

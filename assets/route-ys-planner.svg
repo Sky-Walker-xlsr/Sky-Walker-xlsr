@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" role="img" aria-label="ys-planner: Aufgabenverwaltung mit Boards, Knowledge Base, Mail-Eingang und eigenem MCP-Server.">
+<defs>
+<clipPath id="k"><rect width="800" height="540" rx="24"/></clipPath>
+<radialGradient id="g"><stop offset="0" stop-color="#c9a97c" stop-opacity=".32"/><stop offset="1" stop-color="#c9a97c" stop-opacity="0"/></radialGradient>
+<linearGradient id="f" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#161b22" stop-opacity="0"/><stop offset="1" stop-color="#161b22"/></linearGradient>
+</defs>
+<g clip-path="url(#k)">
+<rect width="800" height="540" fill="#161b22"/>
+<rect width="800" height="300" fill="#0d1117"/>
+<circle cx="520" cy="110" r="190" fill="url(#g)"/>
+<path fill="#161b22" d="M0 230 L140 180 L280 225 L420 130 L560 200 L700 120 L800 170 V300 H0Z"/>
+<path fill="#0d1117" d="M0 280 L170 240 L300 270 L450 170 L520 40 L600 150 L690 110 L800 220 V300 H0Z"/>
+<path fill="none" stroke="#c9a97c" stroke-width="3" stroke-linejoin="round" d="M0 280 L170 240 L300 270 L450 170 L520 40 L600 150 L690 110 L800 220"/>
+<polygon fill="#f2ece1" points="520,40 561,97 537,88 521,112 505,88 489,110"/>
+<rect y="220" width="800" height="80" fill="url(#f)"/>
+<text x="40" y="350" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="38" font-weight="700" fill="#f2ece1">ys-planner</text>
+<text x="760" y="349" text-anchor="end" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="22" fill="#c9a97c">ROUTE 01</text>
+<text x="40" y="396" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#f2ece1" opacity=".85">Aufgabenverwaltung mit Boards, Knowledge Base,</text>
+<text x="40" y="430" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" fill="#f2ece1" opacity=".85">Mail-Eingang und eigenem MCP-Server.</text>
+<text x="40" y="478" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="22" fill="#c9a97c">Next.js · Supabase · Cloudflare Workers</text>
+<text x="40" y="512" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="22" fill="#8b949e">planner.salm.li</text>
+</g>
+<rect x="1" y="1" width="798" height="538" rx="24" fill="none" stroke="#30363d" stroke-width="2"/>
+</svg>
